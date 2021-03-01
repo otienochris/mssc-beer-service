@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/v2/beers")
+@RequestMapping("/api/v1/beers")
 public class BeerController {
 
     @GetMapping("/{beerId}")
